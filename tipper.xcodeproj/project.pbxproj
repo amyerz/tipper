@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C064ADA51F47FC36009D74B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C064ADA41F47FC36009D74B7 /* AppDelegate.swift */; };
-		C064ADA71F47FC36009D74B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C064ADA61F47FC36009D74B7 /* ViewController.swift */; };
+		C064ADA71F47FC36009D74B7 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C064ADA61F47FC36009D74B7 /* TipViewController.swift */; };
 		C064ADAA1F47FC36009D74B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C064ADA81F47FC36009D74B7 /* Main.storyboard */; };
 		C064ADAC1F47FC36009D74B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C064ADAB1F47FC36009D74B7 /* Assets.xcassets */; };
 		C064ADAF1F47FC36009D74B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C064ADAD1F47FC36009D74B7 /* LaunchScreen.storyboard */; };
 		C064ADBA1F47FC36009D74B7 /* tipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C064ADB91F47FC36009D74B7 /* tipperTests.swift */; };
 		C064ADC51F47FC36009D74B7 /* tipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C064ADC41F47FC36009D74B7 /* tipperUITests.swift */; };
+		C064ADD71F497376009D74B7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C064ADD61F497376009D74B7 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		C064ADA11F47FC36009D74B7 /* tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C064ADA41F47FC36009D74B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C064ADA61F47FC36009D74B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C064ADA61F47FC36009D74B7 /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		C064ADA91F47FC36009D74B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C064ADAB1F47FC36009D74B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C064ADAE1F47FC36009D74B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		C064ADC01F47FC36009D74B7 /* tipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C064ADC41F47FC36009D74B7 /* tipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipperUITests.swift; sourceTree = "<group>"; };
 		C064ADC61F47FC36009D74B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C064ADD61F497376009D74B7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				C064ADA41F47FC36009D74B7 /* AppDelegate.swift */,
-				C064ADA61F47FC36009D74B7 /* ViewController.swift */,
+				C064ADA61F47FC36009D74B7 /* TipViewController.swift */,
 				C064ADA81F47FC36009D74B7 /* Main.storyboard */,
 				C064ADAB1F47FC36009D74B7 /* Assets.xcassets */,
 				C064ADAD1F47FC36009D74B7 /* LaunchScreen.storyboard */,
 				C064ADB01F47FC36009D74B7 /* Info.plist */,
+				C064ADD61F497376009D74B7 /* SettingsViewController.swift */,
 			);
 			path = tipper;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C064ADA71F47FC36009D74B7 /* ViewController.swift in Sources */,
+				C064ADA71F47FC36009D74B7 /* TipViewController.swift in Sources */,
 				C064ADA51F47FC36009D74B7 /* AppDelegate.swift in Sources */,
+				C064ADD71F497376009D74B7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
