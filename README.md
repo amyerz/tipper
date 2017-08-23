@@ -20,12 +20,9 @@ The following **optional** features are implemented:
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 * [x] User can select default tip percentage within the range of 10-30%
 * [x] Once default tip percentage changed, the tip segment controller will update with 5% increment
-* [x] Newly default tip is selected in segment control
+* [x] Newly default tip is selected in segment control and recalculate tip amount
 
 ## Video Walkthrough 
 
