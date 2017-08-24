@@ -38,16 +38,18 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1**: "What are your reactions to the iOS app development platform so far? How would you describe outlets and actions to another developer? Bonus: any idea how they are being implemented under the hood? (It might give you some ideas if you right-click on the Storyboard and click Open As->Source Code")
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** 
+I enjoyed the iOS app developement. The youtube video is really helpful to kickstart the app without any iOS experence. Coming from front end background, working with javascript daily, swift's static type language is a bit challenging. 
+Both outlets and actions are connecting the controller to the view. Outlets are more adjective/ properties (i.e. changing background color) vs Actions are event triggered (user tap).
 
 Question 2: "Swift uses [Automatic Reference Counting](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html#//apple_ref/doc/uid/TP40014097-CH20-ID49) (ARC), which is not a garbage collector, to manage memory. Can you explain how you can get a strong reference cycle for closures? (There's a section explaining this concept in the link, how would you summarize as simply as possible?)"
 
-**Answer:** [Enter your answer here in a paragraph or two].
-
+**Answer:**
+The assignment of the closure create a strong reference to the instance and yet closure's self create a strong reference which blocking its dellocations. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Amy Erz]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
